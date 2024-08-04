@@ -1,6 +1,6 @@
-# Tune8
+# tune8
 
-Tune8 is a tool for managing prompts in JSONL format.
+tune8 is a tool for managing prompts in JSONL format.
 
 ## Installation
 
