@@ -4,8 +4,8 @@ import json
 
 app = Flask(__name__)
 
-JSONL_FILE = 'prompts.jsonl'
-DEFAULT_SYSTEM_FILE = 'default_system.txt'
+JSONL_FILE = os.path.join(os.path.dirname(__file__), 'prompts.jsonl')
+DEFAULT_SYSTEM_FILE = os.path.join(os.path.dirname(__file__), 'default_system.txt')
 
 def load_prompts():
     if not os.path.exists(JSONL_FILE):
@@ -86,8 +86,8 @@ def import_jsonl():
         file.save(JSONL_FILE)
         return jsonify(success=True)
 
-def run():
+def run_app():
     app.run(debug=True)
 
 if __name__ == '__main__':
-    run()
+    run_app()

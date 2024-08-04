@@ -1,0 +1,4 @@
+{"messages": [{"role": "system", "content": "tset\r\nqweqwe\r\nqw\r\nq\r\nq\r\nwq"}, {"role": "user", "content": "avacado was bad"}, {"role": "assistant", "content": "negative, not fresh product"}]}
+{"messages": [{"role": "system", "content": "tset\r\nqweqwe\r\nqw\r\nq\r\nq\r\nwq"}, {"role": "user", "content": "- missing item\r\n- late delivery"}, {"role": "assistant", "content": "- missing item\r\n- late delivery\r\nnew here"}]}
+{"messages": [{"role": "system", "content": "tset\r\nqweqwe\r\nqw\r\nq\r\nq\r\nwq"}, {"role": "user", "content": "Testing"}, {"role": "assistant", "content": "test"}]}
+{"messages": [{"role": "system", "content": "tset\r\nqweqwe\r\nqw\r\nq\r\nq\r\nwq"}, {"role": "user", "content": "561\r\nqweqwe\r\nqw\r\neqwe\r\n\r\n-qwew"}, {"role": "assistant", "content": "65-\r\n\r\n-qweqwe"}]}
